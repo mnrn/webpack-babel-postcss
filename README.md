@@ -1,4 +1,4 @@
-# Webpack + Babel のテンプレート
+# Webpack + Babel + Postcss のテンプレート
 
 webpackとbabelを組み合わせた場合のテンプレートになります。
 
@@ -17,6 +17,13 @@ npm install babel-loader @babel/core @babel/cli @babel/preset-env --save-dev
 
 # 開発用サーバー
 npm install webpack-dev-server --save-dev
+
+# CSS関連
+npm install --save-dev style-loader css-loader
+
+# PostCSS関連
+npm install --save-dev postcss-loader postcss
+npm install --save-dev autoprefixer # 好きなの入れておいて
 ```
 
 ## ディレクトリ構成
